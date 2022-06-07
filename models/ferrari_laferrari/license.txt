@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ferrari Laferrari
+* source:	https://sketchfab.com/3d-models/ferrari-laferrari-876da151ca1f4df7ab153e223656ee48
+* author:	louweeeeee___ (https://sketchfab.com/Louweee___)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ferrari Laferrari" (https://sketchfab.com/3d-models/ferrari-laferrari-876da151ca1f4df7ab153e223656ee48) by louweeeeee___ (https://sketchfab.com/Louweee___) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

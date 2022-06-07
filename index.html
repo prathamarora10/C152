@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="Car.js"></script>
+</head>
+
+<body>
+    <a-scene background="color:white">
+        <a-sky src="https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg"></a-sky>
+
+        <a-camera position="0 3 7"></a-camera>
+
+        <!-------------------------------------------Asset Management------------------------------------------->
+        <a-assets timeout="10000">
+            <a-asset-item id="car" src="./models/ferrari_laferrari/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <!-------------------------------------------Circular Base------------------------------------------->
+        <a-circle position="0 0 0" rotation="-90 0 0" radius="5" visible="true" src="https://thumbs.dreamstime.com/b/neon-stage-showroom-concept-dark-sci-fi-alien-grunge-concrete-room-reflective-texture-abstract-pink-blue-purple-abstract-led-134798334.jpg" move-car>
+        </a-circle>
+
+        <!--Car-->
+        <a-entity>
+            <a-entity position="0 0 0" rotation="0 55 0" scale="1 1 1" gltf-model="#car" shadow="cast: true;" rotate-car move-car>
+            </a-entity>
+        </a-entity>
+
+    </a-scene>
+</body>
+
+</html>
